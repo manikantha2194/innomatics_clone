@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.head{
+    background-color: red;
+}
+h1 {
+    margin: 10px 0;
+    text-size-adjust: 48px;
+}
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact-info {
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-info span {
+    margin: 0 10px;
+}
+
+.img32{
+    height: 100%;
+    width: 100%;
+}
+.contact-info a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+/* Dropdown Styling */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #333;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    z-index: 100;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background: orange;
+}
+
+/* Pay Now Button */
+.pay-now {
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Register Now Button */
+.register-now {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px 0 0 5px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.register-now:hover {
+    background-color: darkred;
+}
+
+.hero {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero span {
+    color: red;
+}
+courses{
+background-color: black;
+}
+.course-container{
+    background-color: white;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.course-card{
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    display: inline-flexbox;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+.expert{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: black;
+}
+.scholars{
+    width: 100vh;
+    height:50vh;
+}
+.advantages{
+    background-color: white;
+    text-size-adjust: 100px;
+    height: 50vh;
+    width: 200vh;
+    align:center;
+}
+.map{
+    color: white;
+    padding: 20px;
+    display:center;
+}
+.container {
+    display: flex;
+    width: 100vw; 
+    content: visibility 10px; ;
+    height: 80vh;
+    background-color: white;
+    text-indent: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .difficult{
+    background-color: black;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 200px;
+    text-align:center;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  .reasen{
+    background-color: grey;
+    color: white;
+    text-align: left;
+    padding: 20px;
+  }
